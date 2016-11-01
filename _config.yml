@@ -10,10 +10,10 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "Rio DevDay"
-email: "gdgrio@googlegroups.com"
-description: "Semana de Tecnologia, um evento que ocorre de ano em ano na Unigranrio."
-baseurl: "/riodevday"
+title: "Rio Dev Day"
+email: "rio.gdg@gmail.com"
+description: "Evento para juntar as comunidades de desenvolvimento do Rio."
+baseurl: "/riodevday.github.io"
 url: "gdgrio.org/riodevday"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-43643469-5"
@@ -21,23 +21,23 @@ googleAnalyticsSiteUrl: "gdg-x.github.io"
 siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
 # Organizer Info
-organizerName: "GDG Lviv"
-organizerAlternateName: "Google Developer Group Lviv"
+organizerName: "Seres Humanos que curtem tecnologia"
+organizerAlternateName: "Seres Humanos que curtem tecnologia"
 organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-organizerEmail: "lviv@gdg.org.ua"
+organizerEmail: "jonatasemidio@gmail.com"
 organizerLogo: "/img/seo/organizer-logo.png"
-organizerLink: "http://lviv.gdg.org.ua/"
+organizerLink: "http://riodevday.github.io/"
 
 # Head
-metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
-twitterAccount: "@DevFest"
+metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, rio"
+twitterAccount: "@gdgrio"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
-c4pUrl: "https://bit.ly/dfua-c4p"
-c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
+c4pUrl: "https://goo.gl/forms/yD2sEXxqfsssUZLn2"
+# c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 
 
 # Navigation
@@ -46,39 +46,43 @@ navigationLinks:
 # - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/schedule/", text: "Programação"}
  - {permalink: "/speakers/", text: "Palestrantes"}
- #- {permalink: "/team/", text: "Equipe"}
+ - {permalink: "/team/", text: "Organizadores"}
 # - {permalink: "/logistics/", text: "Logistics"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
- - {link: "https://bit.ly/dfua-c4p", text: "Seja um Palestrante"}
+ - {link: "https://www.eventbrite.com.br/e/rio-dev-day-tickets-28344870270?utm-medium=discovery&utm-campaign=social&utm-content=attendeeshare&aff=escb&utm-source=cp&utm-term=listing", text: "Participe do Evento"}
+ #- {link: "https://goo.gl/forms/yD2sEXxqfsssUZLn2", text: "Seja um Palestrante"}
+
 rightNavigationButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Seja um Palestrante"}
+ - {link: "https://www.eventbrite.com.br/e/rio-dev-day-tickets-28344870270?utm-medium=discovery&utm-campaign=social&utm-content=attendeeshare&aff=escb&utm-source=cp&utm-term=listing", text: "Participe do Evento"}
+ #- {link: "https://goo.gl/forms/yD2sEXxqfsssUZLn2", text: "Seja um Palestrante"}
+
 
 # Hero Block
 heroImage: "rio-walp.png"
 logoUnigranrio: "riodevday-logo.png"
-heroTitle: "Rio DevDay - <typeout>"
-eventDate: "Setembro, 2016"
-typeoutTextValues: '"", "We Love Development", "Google Technologies", "#GDGRio"'
+heroTitle: "Rio Dev Day - <typeout>"
+eventDate: "19 de novembro de 2016"
+typeoutTextValues: '"", "Build Better Together", "GDG Rio", "Python Rio", "Ruby on Rio", "Pyladies Rio", "Woman Techmakers Rio"'
 typeoutFallback: "Season"
 heroButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Seja um Palestrante"}
+ #- {link: "https://goo.gl/forms/yD2sEXxqfsssUZLn2", text: "Seja um Palestrante"}
  - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
 aboutTitle: "Sobre o Rio DevDay"
 aboutBlock:
- - {title: "Data Mining", image: "bigdata.jpg", text: "Palestras sobre mineração de dados trazendo uma experiência divertida e de grande valor!." }
- - {title: "Internet of Things", image: "iot.png", text: "Palestras, debates, demonstrações e minicursos sobre a Internet das Coisas." }
- - {title: "Development", image: "dev.png", text: "Palestras e minicursos sobre novas linguagens, frameworks modernos e muito mais." }
+ - {title: "Palestras", image: "bigdata.jpg", text: "Palestras sobre linguagens, frameworks e muito mais." }
+ - {title: "Lightning Talks", image: "iot.png", text: "Lightning Talks, palestras mais rápidas sobre desenvolvimento." }
+ - {title: "Workshops", image: "dev.png", text: "Workshops sobre novas linguagens, frameworks modernos e muito mais." }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "100", specialCharacter: "+", info: "participantes", detail: ""}
- - {count: "72", specialCharacter: "+", info: "horas", detail: "de palestras e conteúdo"}
+ - {count: "300", specialCharacter: "+", info: "participantes", detail: ""}
+ - {count: "6", specialCharacter: "+", info: "horas", detail: "de palestras e conteúdo"}
  - {count: "20", specialCharacter: "+", info: "palestrantes", detail: "sinistros"}
- - {count: "3", specialCharacter: "", info: "dias", detail: "de puro aprendizado"}
+ - {count: "1", specialCharacter: "", info: "dia", detail: "de puro aprendizado"}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
@@ -91,39 +95,40 @@ rockstarSpeakersButtonText: "Ver todos os palestrantes"
 
 # Location Block
 locationBlockTitle: "Localização"
-eventLocationName: "Universidade Unigranrio"
+eventLocationName: "Universidade Estácio de Sá campus Nova América"
 eventLocationLink: "#"
-eventStreetAddress: "Rua Professor José de Souza Herdy, 1160"
-eventAddressLocality: "Duque de Caxias"
+eventStreetAddress: "Estado do Rio de Janeiro"
+eventAddressLocality: "Estado do Rio de Janeiro"
 eventAddressLocalityRegion: "Rio de Janeiro"
 eventPostalCode: ""
 eventAddressCountry: "Brasil"
-eventStartTime: "2014-10-25T10:00"
+eventStartTime: "2016-11-19T10:00"
 eventDoorTime: "09:00"
-eventEndTime: "2014-10-25T20:00"
-eventPlaceCoordinates: "-22.7891254, -43.3061874"
-mapCenterCoordinates: "-22.7891254, -43.3061874"
-mapMobileCenterCoordinates: "-22.7891254, -43.3061874"
+eventEndTime: "2016-11-19T17:00"
+eventPlaceCoordinates: "-22.8782071,-43.272322"
+mapCenterCoordinates: "-22.8782071,-43.272322"
+mapMobileCenterCoordinates: "-22.8782071,-43.272322"
 
 # Venue Block
-venueBlockTitle: "Unigranrio"
-venueBigImage: "auditorio.png"
-venueSmallImage1: "bliblioteca.png"
-#venueSmallImage2: "venue_2.jpg"
+venueBlockTitle: "Estácio - Shopping Nova América"
+venueBigImage: "auditorio.jpg"
+venueSmallImage1: "novaamerica.png"
+venueSmallImage2: "novaamerica-2.jpg"
 #venueSmallImage3: "venue_3.jpg"
-venueTitle: "Auditório Unigranrio"
-venueFeatures: ["Bom ambiente para palestras", "Boa acústica, climatização", "Localizado dentro da Universidade"]
+venueTitle: "Auditório"
+venueFeatures: ["Bom ambiente para palestras", "Boa acústica, climatização", "Localizado dentro da Universidade", "Universidade localizada dentro de um shopping!"]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "e aí?"
-twitterHashTag: "unigranrio"
+twitterHashTag: "riodevday"
 twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
 organizersTitle: "Organização"
 partnersTitle: "Parceiros"
-partnersC4sponsorsButton: "Seja um patrocinador"
+
+partnersC4sponsorsButton: "Seja um patrocinador, entre em contato pelo email rio.gdg@gmail.com"
 
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
@@ -182,16 +187,14 @@ footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "http://www.unigranrio.br/", text: "Universidade Unigranrio"}
-   - {link: "http://gdgduquedecaxias.github.io/", text: "GDG Duque de Caxias"}
-   - {link: "http://www.meetup.com/pt-BR/GDG-Duque-de-Caxias/", text: "GDG Duque de Caxias - MeetUp"}
+   - {link: "http://www.estacio.br/", text: "Universidade Estácio de Sá"}
    - {link: "https://developers.google.com", text: "Google Developers"}
+
  -
   title: "Contatos"
   links:
-   - {link: "mailto:gabrielcastrolima35@gmail.com", text: "gabrielcastrolima35@gmail.com"}
-   - {link: "mailto:thiagosilva@gmai.com", text: "thiagosilva@gmail.com"}
-   - {link: "mailto:gabrielcastrolima35@gmail.com", text: "gdgcaxiasrj@gmail.com"}
+
+   - {link: "mailto:rio.gdg@gmail.com", text: "rio.gdg@gmail.com"}
 
 # Blog
 blogTitle: "Latest news"
@@ -203,7 +206,7 @@ showSessions: true
 
 # Team Block
 teamBlockTitle: "Sobre nós"
-aboutUs: "Google's services have become synonymous with simple things online. Number of technological innovations and IT industries in which Google is creating new products is enormous. It's hard to get to know all of them, but realistic. This is why people have started to gather in small local groups and share their experience. Later, the following groups have been called Google Developer Groups. GDGs can take many forms -- from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences."
+aboutUs: "Somos um grupo de desenvolvedores de várias linguagens, de várias comunidades que decidimos nos unir e fazer um evento misturando tudo o que tem de melhor."
 
 # Logistics Find Way Block
 findWayTitle: "Find your way here"
@@ -213,8 +216,8 @@ findWayWalking: "WALKING"
 findWayBicycling: "BICYCLING"
 findWayTransit: "TRANSIT"
 findWayFindFlight: "Find Flight"
-logisticsMapCenterCoordinates: "49.056728, 3.117289"
-logisticsMapMobileCenterCoordinates: "48.335365, 23.711648"
+logisticsMapCenterCoordinates: "-22.8782071,-43.272322"
+logisticsMapMobileCenterCoordinates: "-22.8782071,-43.272322"
 logisticsMapAutoDirections: false
 
 # Logistics Direction Details Block
